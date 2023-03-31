@@ -1,14 +1,20 @@
-import * as React from 'react';
+import { GroupCard } from '@components/GroupCard';
+import { Header } from '@components/Header';
+import { Highlight } from '@components/HigthLigth';
+
 import { Container } from './styles';
 
-interface GroupsProps {}
-
-const Groups = (props: GroupsProps) => {
+export function Groups() {
   return (
     <Container>
-      
+      <Header />
+      <Highlight 
+        title="Turmas"
+        subtitle="jogue com sua turma"
+      />
+
+      <GroupCard 
+        title="Galera do Ignite" />
     </Container>
   );
-};
-
-export default Groups;
+}
