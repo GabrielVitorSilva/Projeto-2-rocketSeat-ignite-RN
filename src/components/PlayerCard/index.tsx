@@ -8,7 +8,7 @@ type Props = {
 
 export function PlayerCard({ name, onRemove }: Props) {
     return (
-        <Container>
+        <Container style={{marginBottom: 10}}>
 
             <Icon
                 name='person'

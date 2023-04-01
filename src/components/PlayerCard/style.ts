@@ -4,7 +4,7 @@ import {MaterialIcons} from '@expo/vector-icons'
 
 export const Container = styled.View`
   width: 100%;
-  height: 56px;
+  height: 52px;
 
   background-color: ${({theme}) => theme.COLORS.GRAY_500};
 
@@ -12,8 +12,6 @@ export const Container = styled.View`
   
   flex-direction: row;
   align-items: center;
-
-  margin-bottom 16px;
 `
 
 export const Name = styled.Text`
